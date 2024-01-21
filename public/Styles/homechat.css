@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#Version {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    color: rgb(69,69,69);
+}
+
+#Title {
+    background: linear-gradient(120deg, #0038FF, #B800D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 500%;
+}
+
+#form {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#back {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 50%;
+    transform: translate(-50%, -21%);
+    color: white;
+}
+
+.Box {
+    position: absolute;
+    background-color: #191919;
+    border: 5px #7f7f7f solid;
+    border-radius: 10px;
+    width: 9%;
+    height: 6.5%;
+    color: white;
+    transition: 200ms;
+}
+
+.Box:hover {
+    background-color: #d1d1d1;
+    color: black;
+    border-color: #191919;
+    cursor: pointer;
+}
+
+.BoxText {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250%;
+    cursor: default;
+}
+
+.BoxText:hover {
+    cursor: pointer;
+}
