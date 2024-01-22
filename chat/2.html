@@ -80,7 +80,7 @@
 
         function a(msg) {
           var item = document.createElement('li');
-          item.innerHTML = `<img class="pfp" src="/Images/pfp.png"><span class="Name">${msg.name}</span><span class="Date">${msg.date}</span><br><span class="Msg">${msg.message}</span>`;
+          item.innerHTML = `<span class="Name">${msg.name}</span><span class="Date">${msg.date}</span><br><span class="Msg">${msg.message}</span>`;
 
           messages.appendChild(item);
           Bottom();
